@@ -46,7 +46,8 @@ id INTEGER Primary Key
 name VARCHAR (255) NOT NULL
 Table: prices
 Column Data Type Constraints
-Price_id INTEGER Primary Key
+Price_id INTEGER Primary Key![ERD](https://github.com/user-attachments/assets/eef46ffd-ea5d-4ff0-9ed0-f8cf3063ad1f)
+
 stock_id INTEGER Foreign Key ([stocks.id](http://stocks.id/))
 price DECIMAL NOT NULL
 Date TIMESTAMP NOT NULL
