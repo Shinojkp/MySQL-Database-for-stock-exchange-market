@@ -34,6 +34,7 @@ outlining the tables, columns, and connections that make up this powerful databa
 the stock exchange market.
 
 DATABASE DESIGN
+![ERD](https://github.com/user-attachments/assets/eef46ffd-ea5d-4ff0-9ed0-f8cf3063ad1f)
 
 The database system for a stock exchange market that records the history of all the prices of each stock and can be updated for a stock exchange market with several clients.
 
@@ -46,7 +47,7 @@ id INTEGER Primary Key
 name VARCHAR (255) NOT NULL
 Table: prices
 Column Data Type Constraints
-Price_id INTEGER Primary Key![ERD](https://github.com/user-attachments/assets/eef46ffd-ea5d-4ff0-9ed0-f8cf3063ad1f)
+Price_id INTEGER Primary Key
 
 stock_id INTEGER Foreign Key ([stocks.id](http://stocks.id/))
 price DECIMAL NOT NULL
