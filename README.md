@@ -1,4 +1,4 @@
-**MySQL Database System Design for a Stock Exchange Market **
+**MySQL Database Design for a Stock Exchange Market **
 
 **Introduction**
 
